@@ -9,3 +9,21 @@ To start the REPL, run the following command:
 ```bash
 go run main.go
 ```
+
+## Running the Tests
+
+To run the tests, run the following command:
+
+```bash
+go test ./...
+```
+
+## Implemented to date
+
+- [x] Initial token definition
+- [x] Initial lexer
+- [x] Basic REPL to print tokens
+- [ ] Parser
+- [ ] Evaluation
+- [ ] Extending the interpreter
+- [ ] etc...
